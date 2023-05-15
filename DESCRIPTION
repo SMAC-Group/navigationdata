@@ -12,8 +12,8 @@ Authors@R: c(
     )
 Maintainer: Lionel Voirol <lionelvoirol@hotmail.com>
 Description: This package is meant to serve as a data collection tool for trajectories data. 
- This data can be used as a mean to assess and test methods designed to analyse 
- calibration methods of error signals (i.e. long and complex autocorrelated signals). An example method
+ This data can be used as a mean to assess and test methods designed to analyse and compare
+ calibration methods of Inertial Measurment Units. An example method
  used for this kind of data is implemented in the navigation R package which allows
  to analyze the impact of sensor error modeling on performance of integrated navigation (sensor fusion) based on IMU, GPS, and barometer data. 
 Depends:
@@ -26,4 +26,3 @@ Suggests:
 VignetteBuilder: knitr
 URL: https://github.com/SMAC-Group/navigationdata
 BugReports: https://github.com/SMAC-Group/navigationdata/issues
-LinkingTo: 
