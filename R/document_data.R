@@ -1,3 +1,4 @@
+
 #' Example trajectory 3 in ellipsoidal coordinates
 #'
 #'
