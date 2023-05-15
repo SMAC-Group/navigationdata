@@ -1,0 +1,29 @@
+Package: navigationdata
+Type: Package
+Title: Data Package containing trajectories in NED and ellispoidal coordinates systems
+Version: 0.0.1
+LazyData: true
+LazyDataCompression:xz
+Authors@R: c(
+    person("Davide A.", "Cucci", email = "Davide.Cucci@unige.ch", role = c("aut")),
+    person("Lionel", "Voirol", email = "lionelvoirol@hotmail.com", role = c("aut", "cre")),
+    person("Mehran", "Khaghani", role = c("aut")),
+    person("Stéphane", "Guerrier", email = "Stephane.Guerrier@unige.ch", role = c("aut"))
+    )
+Maintainer: Lionel Voirol <lionelvoirol@hotmail.com>
+Description: This package is meant to serve as a data collection tool for trajectories data. 
+ This data can be used as a mean to assess and test methods designed to analyse 
+ calibration methods of error signals (i.e. long and complex autocorrelated signals). An example method
+ used for this kind of data is implemented in the navigation R package which allows
+ to analyze the impact of sensor error modeling on performance of integrated navigation (sensor fusion) based on IMU, GPS, and barometer data. 
+Depends:
+    R (>= 4.0.0)
+License: AGPL-3
+Imports:
+RoxygenNote: 7.2.3
+Encoding: UTF-8
+Suggests:
+VignetteBuilder: knitr
+URL: https://github.com/SMAC-Group/navigationdata
+BugReports: https://github.com/SMAC-Group/navigationdata/issues
+LinkingTo: 
